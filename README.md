@@ -1,8 +1,6 @@
 # BeCode - Workshop
 
-# Regular Expression
-
-## Introduction
+## An Introduction to Regular Expression
 Like Marcus Aurelius said :
 
 > Dura RegEx Sed RegEx
@@ -13,4 +11,5 @@ Translation :
 
 Which means :
 
-No need to try hard, simply use it !
+> No need to try hard, simply use it !
+
