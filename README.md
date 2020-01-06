@@ -35,4 +35,16 @@ Les `Expressions Régulières` en Python sont disponibles via le module **re** q
 Après avoir défini une `Expression Régulière`, il suffit d'utiliser la fonction **re.match**
 <br><br>
 Cette fonction retournera un object qui correspond au modèle de l'expression sinon elle retournera `None`
+<br><br>
+Exemple:
+```python
+import re
+
+pattern = r"spam"
+
+if re.match(pattern, "spamspamspam"):
+  print("Match")
+else:
+  print("No Match")
+```
 ### 1) 
