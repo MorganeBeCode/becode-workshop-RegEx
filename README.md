@@ -51,4 +51,4 @@ else:
 
 <br><br>
 ## Liste des étapes
-### 1) Les 3 petites fonctions
+### 1) [Les trois petites fonctions](regex-py-01.md)
