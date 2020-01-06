@@ -28,5 +28,11 @@ Une `Expression Régulière` est une séquence de caractères qui décrit, selon
 - Vérifier le contenu de certains champs de formulaire avant envoi (**email, numéro de téléphone, adresse IP**...)
 
 ## Prochaines étapes
-Il est temps de se lancer et découvrir les différents éléments qui constituent la syntaxe des `Expressions Régulières`. Afin de pouvoir s'exercer de manière interactive et le plus simplement possible, j'ai décidé de vous faire coder en [Python](https://www.sololearn.com/Course/Python/) utiliser le [Code Playground](https://code.sololearn.com/#py) de [Sololearn](https://www.sololearn.com/)
-#### 1) 
+Il est temps de se lancer et découvrir les différents éléments qui constituent la syntaxe des `Expressions Régulières`. Afin de pouvoir s'exercer de manière interactive et le plus simplement possible, j'ai décidé de vous faire coder en Python utiliser le [Code Playground](https://code.sololearn.com/#py) de Sololearn
+<br>
+Les `Expressions Régulières` en Python sont disponibles via le module **re** qui fait parti de la bibliothèque standard.
+<br>
+Après avoir défini une `Expression Régulière`, il suffit d'utiliser la fonction **re.match**
+<br>
+Cette fonction retournera un object qui correspond au modèle de l'expression sinon elle retournera `None`
+### 1) 
