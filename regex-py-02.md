@@ -1,24 +1,23 @@
 ## 2) Métacaractères
-En plus de la fonction **re.match**, il existe **re.search** et **re.findall**
+Les métacaractères représentent toute la puissance des `Expressions Régulières`. Ils permettent de créer facilement des modèles capables, par exemple, de trouver "une ou plusieurs répétitions de voyelles"
 
-Selon vous, que retourneront ces fonctions lors de l'exécution du code ci-dessous ?
+Le premier exemple met en application l'utilisation du "." (point) qui correspond à **n'importe quel caractère** autre qu'un retour à la ligne.
+
+Exemple:
 
 ```python
 import re
 
-pattern = r"spam"
+pattern = r"gr.y"
 
-if re.match(pattern, "eggspamsausagespam"):
-  print("Match")
-else:
-  print("No match")
+if re.match(pattern, "grey"):
+  print("Match 1")
 
-if re.search(pattern, "eggspamsausagespam"):
-  print("Match")
-else:
-  print("No match")
+if re.search(pattern, "gray"):
+  print("Match 2")
 
-print(re.findall(pattern, "eggspamsausagespam"))
+if re.search(pattern, "blue"):
+  print("Match 3")
 ```
 <br>
 
