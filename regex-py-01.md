@@ -1,5 +1,5 @@
 ## 1) Les trois petites fonctions
-En plus de la fonction **re.match**, il existe **re.search** et **re.findall**
+En Python, en plus de la fonction **re.match**, il existe les fonctions **re.search** et **re.findall**
 
 Selon vous, que retourneront ces fonctions lors de l'exécution du code ci-dessous ?
 
