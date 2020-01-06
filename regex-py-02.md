@@ -1,5 +1,5 @@
 ## 2) Métacaractères
-Les métacaractères représentent toute la puissance des `Expressions Régulières`. Ils permettent de créer facilement des modèles capables, par exemple, de trouver "une ou plusieurs répétitions de voyelles"
+Les métacaractères représentent toute la puissance des `Expressions Régulières`. Ils permettent de créer facilement des modèles capables, par exemple, de trouver *"une ou plusieurs répétitions de voyelles"*
 
 Le premier exemple met en application l'utilisation du "." (point) qui correspond à **n'importe quel caractère** autre qu'un retour à la ligne.
 
