@@ -47,7 +47,6 @@ if re.match(pattern, "spamspamspam"):
 else:
   print("No Match")
 ```
-<br>
 ### Sololearn > [Code Playground](https://code.sololearn.com/#py)
 <br><br>
 ## Liste des étapes
