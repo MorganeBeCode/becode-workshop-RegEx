@@ -27,7 +27,7 @@ Une `Expression Régulière` est une séquence de caractères qui décrit, selon
 - Remplacer par des '**X**' tous les numéros de téléphone d'une liste clients pour en garder la confidentialité lors d'une publication **0123/456 78 90 > 01XX/XXX XX XX**
 - Vérifier le contenu de certains champs de formulaire avant envoi (**email, numéro de téléphone, adresse IP**...)
 
-## Prochaines étapes
+## Et maintenant ?
 Il est temps de se lancer et découvrir les différents éléments qui constituent la syntaxe des `Expressions Régulières`. Afin de pouvoir s'exercer de manière interactive et le plus simplement possible, j'ai décidé de vous faire coder en Python utiliser le [Code Playground](https://code.sololearn.com/#py) de Sololearn
 <br><br>
 Les `Expressions Régulières` en Python sont disponibles via le module **re** qui fait parti de la bibliothèque standard.
@@ -47,4 +47,6 @@ if re.match(pattern, "spamspamspam"):
 else:
   print("No Match")
 ```
-### 1) 
+### Sololearn > [Code Playground](https://code.sololearn.com/#py)
+## Liste des étapes
+### 1) Les 3 petites fonctions
