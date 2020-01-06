@@ -52,3 +52,5 @@ else:
 <br><br>
 ## Liste des étapes
 ### [1) Les trois petites fonctions](regex-py-01.md)
+### [2) Métacaractères](regex-py-02.md)
+
