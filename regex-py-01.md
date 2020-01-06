@@ -1,7 +1,7 @@
 ## 1) Les trois petites fonctions
 En plus de la fonction **re.match**, il existe **re.search** et **re.findall**
 
-Selon vous, que retourneront ces fonctions ?
+Selon vous, que retourneront ces fonctions lors de l'exécution du code ci-dessous ?
 
 ```python
 import re
@@ -20,3 +20,5 @@ else:
 
 print(re.findall(pattern, "eggspamsausagespam"))
 ```
+<br><br>
+## Etape suivante > 2) [Métacaractères](regex-py-02.md)
