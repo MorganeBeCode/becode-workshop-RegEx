@@ -21,4 +21,5 @@ else:
 print(re.findall(pattern, "eggspamsausagespam"))
 ```
 <br>
-## 2) [Métacaractères](./regex-py-02.md)
+Etape suivante...
+## [2) Métacaractères](./regex-py-02.md)
