@@ -45,9 +45,11 @@ if re.search(pattern, "10AB3"):
 ```
 <br>
 
-Petite astuce, en initiant une classe de caractères par un "**^**" aura pour effet d'**inverser** sa valeur.
+Dans ce dernier exemple, vous pouvez voir qu'en initiant une classe de caractères par un "**^**" aura pour effet d'**inverser** sa valeur.
 
-**EXEMPLE 2** : *classe de caractère inversée*
+<br>
+
+**EXEMPLE 3** : *classe de caractère inversée*
 
 ```python
 import re
