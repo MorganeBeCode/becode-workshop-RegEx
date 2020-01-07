@@ -3,7 +3,7 @@ Les métacaractères représentent toute la puissance des `Expressions Réguliè
 
 Le premier exemple met en application l'utilisation du "." (point) qui correspond à **n'importe quel caractère** autre qu'un retour à la ligne.
 
-Exemple:
+Exemple 1:
 
 ```python
 import re
@@ -17,6 +17,24 @@ if re.search(pattern, "gray"):
   print("Match 2")
 
 if re.search(pattern, "blue"):
+  print("Match 3")
+```
+L'exemple suivant met en application l'utilisation des métacaractères **^** et **$** qui correspondent aux **début** et **fin** de la chaîne de caractère.
+
+Exemple 2:
+
+```python
+import re
+
+pattern = r"^gr.y$"
+
+if re.match(pattern, "grey"):
+  print("Match 1")
+
+if re.match(pattern, "gray"):
+  print("Match 2")
+
+if re.match(pattern, "gray sky"):
   print("Match 3")
 ```
 <br>
