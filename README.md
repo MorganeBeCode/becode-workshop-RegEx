@@ -1,7 +1,7 @@
 # BeCode - Workshop
 - Thème : Regular Expression (RegEx)
 - Objectif : découvrir et apprendre à utiliser les `Expressions Régulières`
-- Sources : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com)
+- Sources : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com), [Regular-Expressions.info](https://www.regular-expressions.info)
 
 ## Pourquoi les RegEx ?
 Comme l'empereur romain Marcus Aurelius disait :
@@ -54,4 +54,6 @@ else:
 ### [1) Trois petites fonctions](regex-py-01.md)
 ### [2) Métacaractères](regex-py-02.md)
 ### [3) Classes de caractères](regex-py-03.md)
-### [4) Groupes](regex-py-04.md)
+### [4) Encore plus de métacaractères](regex-py-04.md)
+### [5) Groupes](regex-py-05.md)
+### [6) Séquences spéciales](regex-py-06.md)
