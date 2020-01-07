@@ -34,16 +34,36 @@ import re
 
 pattern = r"[A-Z][A-Z][0-9]"
 
-if re.match(pattern, "LS8"):
+if re.search(pattern, "LS8"):
   print("Match 1")
 
-if re.match(pattern, "Ec3"):
+if re.search(pattern, "Ec3"):
   print("Match 2")
 
-if re.match(pattern, "10AB3"):
+if re.search(pattern, "10AB3"):
+  print("Match 3")
+```
+<br>
+
+Petite astuce, en initiant une classe de caractères par un "**^**" aura pour effet d'**inverser** sa valeur.
+
+**EXEMPLE 2** : *classe de caractère inversée*
+
+```python
+import re
+
+pattern = r"[^A-Z]"
+
+if re.search(pattern, "this is all quiet"):
+  print("Match 1")
+
+if re.search(pattern, "AbCdEfG123"):
+  print("Match 2")
+
+if re.search(pattern, "THISISALLSHOOTING"):
   print("Match 3")
 ```
 <br>
 
 *Passer à l'étape suivante...*
-## [3) Classes de caractères](./regex-py-03.md)
+## [4) Encore plus de métacaractères](./regex-py-04.md)
