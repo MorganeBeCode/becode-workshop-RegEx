@@ -3,7 +3,7 @@ Les métacaractères représentent toute la puissance des `Expressions Réguliè
 
 Le premier exemple met en application l'utilisation du "." (point) qui correspond à **n'importe quel caractère** autre qu'un retour à la ligne.
 
-EXEMPLE 1: *métacaractère "."*
+**EXEMPLE 1** : *métacaractère "."*
 
 ```python
 import re
@@ -25,7 +25,7 @@ L'exemple suivant met en application l'utilisation des métacaractères **^** et
 
 <br>
 
-EXEMPLE 2: *métacaractères "^" et "$"* 
+**EXEMPLE 2** : *métacaractères "^" et "$"* 
 
 ```python
 import re
