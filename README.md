@@ -36,7 +36,7 @@ Après avoir défini une `Expression Régulière`, il suffit d'utiliser la fonct
 <br><br>
 Cette fonction retournera un object qui correspond au modèle de l'expression sinon elle retournera `None`
 <br><br>
-**EXEMPLE** : *valeur littérale*
+**EXEMPLE** : *valeur littérale (=exacte)*
 ```python
 import re
 
