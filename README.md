@@ -36,7 +36,7 @@ Après avoir défini une `Expression Régulière`, il suffit d'utiliser la fonct
 <br><br>
 Cette fonction retournera un object qui correspond au modèle de l'expression sinon elle retournera `None`
 <br><br>
-Exemple:
+**EXEMPLE** : *valeur littérale*
 ```python
 import re
 
@@ -51,6 +51,7 @@ else:
 
 <br><br>
 ## Liste des étapes
-### [1) Les trois petites fonctions](regex-py-01.md)
+### [1) Trois petites fonctions](regex-py-01.md)
 ### [2) Métacaractères](regex-py-02.md)
+### [3) Classes de caractères](regex-py-03.md)
 
