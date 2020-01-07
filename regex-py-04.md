@@ -3,7 +3,7 @@ Les métacaractères **\*, +, ?, { }** permettent de spécifier le nombre de ré
 
 Le premier exemple met en application **\*** qui signifie **zéro ou plusieurs répétitions** de l'élément qui précède.
 
-**EXEMPLE 1** : *métacaractère* ` \* `
+**EXEMPLE 1** : *métacaractère* ` * `
 
 ```python
 import re
@@ -76,7 +76,7 @@ Si la première ou la seconde valeur n'est pas spécifiée, elle vaudra 0 par d�
 
 <br>
 
-**EXEMPLE 4** : *métacaractère* ` { } `
+**EXEMPLE 4** : *métacaractères* ` { } `
 
 ```python
 import re
