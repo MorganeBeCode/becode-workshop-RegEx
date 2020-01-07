@@ -44,4 +44,4 @@ if re.match(pattern, "gray sky"):
 <br>
 
 *Passer à l'étape suivante...*
-## [3) Métacaractères](./regex-py-03.md)
+## [3) Classes de caractères](./regex-py-03.md)
