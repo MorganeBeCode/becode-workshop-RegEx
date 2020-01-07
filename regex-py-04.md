@@ -1,71 +1,98 @@
-## 3) Classes de caractères
-Les classes de caractères permettent de créer des modèles définis par un **ensemble de caractères** délimité par des "**[]**".
+## 4) Encore plus de métacaractères
+Les métacaractères **\*, +, ?, { }** permettent de spécifier le nombre de répétitions de l'élément qui précède.
 
-Un tiret "**-**" représente une intervalle à l'intérieur de la classe. Il s'agit d'un métacaractère s'il est placé dans cette position. Pour permettre sa lecture en tant que caractère "tiret" il convient de le placer en début de la classe comme ceci "**[-....]**"
+Le premier exemple met en application **\*** qui signifie **zéro ou plusieurs répétitions** de l'élément qui précède.
 
-Le premier exemple met en application une classe de caractères qui permet de vérifier si **au moins un des caractères** est présent.
-
-**EXEMPLE 1** : *classe de caractères*
+**EXEMPLE 1** : *métacaractère \**
 
 ```python
 import re
 
-pattern = r"[aeiouy]"
+pattern = r"egg(spam)*"
 
-if re.search(pattern, "this"):
+if re.match(pattern, "egg"):
   print("Match 1")
 
-if re.search(pattern, "is"):
+if re.match(pattern, "eggspamspamspamegg"):
   print("Match 2")
 
-if re.search(pattern, "SPARTAAAAAAA"):
+if re.match(pattern, "spam"):
   print("Match 3")
 ```
 <br>
 
-L'exemple suivant met en application une classe de caractères constituée de plusieurs **ensembles de caractères** afin de vérifier si **au moins deux lettres majuscules et un chiffre** se suivent.
+L'exemple suivant met en application **+** qui signifie **une ou plusieurs répétitions** de l'élément qui précède.
 
 <br>
 
-**EXEMPLE 2** : *ensembles de caractère*
+**EXEMPLE 2** : *métacaractère +*
 
 ```python
 import re
 
-pattern = r"[A-Z][A-Z][0-9]"
+pattern = r"g+"
 
-if re.search(pattern, "LS8"):
+if re.match(pattern, "g"):
   print("Match 1")
 
-if re.search(pattern, "Ec3"):
+if re.match(pattern, "ggggggggggggg"):
   print("Match 2")
 
-if re.search(pattern, "10AB3"):
+if re.match(pattern, "abc"):
   print("Match 3")
 ```
 <br>
 
-Dans ce dernier exemple, vous pouvez voir qu'en initiant une classe de caractères par un "**^**" aura pour effet d'**inverser** sa valeur.
+L'exemple suivant met en application **?** qui signifie **zéro ou une répétition** de l'élément qui précède.
 
 <br>
 
-**EXEMPLE 3** : *classe de caractère inversée*
+**EXEMPLE 3** : *métacaractère ?*
 
 ```python
 import re
 
-pattern = r"[^A-Z]"
+pattern = r"ice(-)?cream"
 
-if re.search(pattern, "this is all quiet"):
+if re.match(pattern, "ice-cream"):
   print("Match 1")
 
-if re.search(pattern, "AbCdEfG123"):
+if re.match(pattern, "icecream"):
   print("Match 2")
 
-if re.search(pattern, "THISISALLSHOOTING"):
+if re.match(pattern, "lasagne"):
+  print("Match 3")
+
+if re.match(pattern, "ice--ice"):
+  print("Match 4")
+```
+<br>
+
+Le dernier exemple met en application **{x,y}** qui permet de définir une **intervalle de répétitions comprise entre x et y** de l'élément qui précède.
+
+Du coup, **{0,1}** est similaire à **?**.
+
+Si la première ou la seconde valeur n'est pas spécifiée, elle vaudra 0 par défaut.
+
+<br>
+
+**EXEMPLE 4** : *métacaractère { }*
+
+```python
+import re
+
+pattern = r"9{1,3}"
+
+if re.match(pattern, "9"):
+  print("Match 1")
+
+if re.match(pattern, "999"):
+  print("Match 2")
+
+if re.match(pattern, "9999"):
   print("Match 3")
 ```
 <br>
 
 *Passer à l'étape suivante...*
-## [4) Encore plus de métacaractères](./regex-py-04.md)
+## [5) Groupes](./regex-py-05.md)
