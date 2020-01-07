@@ -19,8 +19,9 @@ if re.search(pattern, "gray"):
 if re.search(pattern, "blue"):
   print("Match 3")
 ```
+<br>
 L'exemple suivant met en application l'utilisation des métacaractères **^** et **$** qui correspondent aux **début** et **fin** de la chaîne de caractère.
-
+<br>
 EXEMPLE 2: *métacaractères "^" et "$"* 
 
 ```python
