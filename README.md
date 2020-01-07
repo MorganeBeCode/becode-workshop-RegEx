@@ -54,3 +54,4 @@ else:
 ### [1) Trois petites fonctions](regex-py-01.md)
 ### [2) Métacaractères](regex-py-02.md)
 ### [3) Classes de caractères](regex-py-03.md)
+### [4) Groupes](regex-py-04.md)
