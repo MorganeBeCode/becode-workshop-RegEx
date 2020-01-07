@@ -9,7 +9,7 @@ pattern = r"egg(spam)*"
 
 L'exemple suivant met en application "**|**" qui signifie **soit ce qui précède OU soit ce qui suit** le métacaractère "|".
 
-**EXEMPLE 1** : *métacaractère "|"*
+**EXEMPLE 1** : *métacaractère ` | `*
 
 ```python
 import re
