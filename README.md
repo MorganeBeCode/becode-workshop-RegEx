@@ -57,3 +57,4 @@ else:
 ### [4) Encore plus de métacaractères](regex-py-04.md)
 ### [5) Groupes](regex-py-05.md)
 ### [6) Séquences spéciales](regex-py-06.md)
+### [7) Exercice : Email](regex-py-07.md)
