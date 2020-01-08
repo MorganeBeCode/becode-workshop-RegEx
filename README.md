@@ -58,3 +58,4 @@ else:
 ### [5) Groupes](regex-py-05.md)
 ### [6) Séquences spéciales](regex-py-06.md)
 ### [7) Exercice : Email](regex-py-07.md)
+### [8) Vers l'infini et au-delà](regex-py-08.md)
