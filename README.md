@@ -2,7 +2,7 @@
 - Thème : Regular Expression (RegEx)
 - Objectif : découvrir et apprendre à utiliser les `Expressions Régulières`
 - Sources : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com), [Regular-Expressions.info](https://www.regular-expressions.info)
-- Wikipedia :
+- Wikipedia : [Expression régulière](https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re), [Hiérarchie de Chomsky](https://fr.wikipedia.org/wiki/Hi%C3%A9rarchie_de_Chomsky), [Langage naturel](https://fr.wikipedia.org/wiki/Langage_naturel), [Langage formel](https://fr.wikipedia.org/wiki/Langage_formel)
 
 ## Pourquoi les RegEx ?
 Comme l'empereur romain Marcus Aurelius disait :
@@ -15,7 +15,7 @@ Traduction :
 
 Ce qui signifie :
 
-> Les expressions régulières sont dures à aborder, mais ce sont des expressions régulières
+> Les expressions régulières sont dures à aborder, mais ce sont des expressions régulières (et PAF dans ta face !)
 
 ![mème de Gladiator avec Maximus hurlant à la foule : are you not entertained](https://i.kym-cdn.com/photos/images/original/000/615/056/23c.gif)
 
