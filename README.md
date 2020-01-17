@@ -1,8 +1,9 @@
 # BeCode - Workshop
 - Thème : Regular Expression (RegEx)
 - Objectif : découvrir et apprendre à utiliser les `Expressions Régulières`
-- Sources : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com), [Regular-Expressions.info](https://www.regular-expressions.info)
-- Wikipedia : [Expression régulière](https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re), [Hiérarchie de Chomsky](https://fr.wikipedia.org/wiki/Hi%C3%A9rarchie_de_Chomsky), [Langage naturel](https://fr.wikipedia.org/wiki/Langage_naturel), [Langage formel](https://fr.wikipedia.org/wiki/Langage_formel)
+- Sources principales : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com), [Regular-Expressions.info](https://www.regular-expressions.info)
+- Infos complémentaires : [Expression régulière](https://fr.wikipedia.org/wiki/Expression_r%C3%A9guli%C3%A8re), [Hiérarchie de Chomsky](https://fr.wikipedia.org/wiki/Hi%C3%A9rarchie_de_Chomsky), [Langage naturel](https://fr.wikipedia.org/wiki/Langage_naturel), [Langage formel](https://fr.wikipedia.org/wiki/Langage_formel)
+- Doc Python 3 : [module 're'](https://docs.python.org/3/library/re.html)
 
 ## Pourquoi les RegEx ?
 Comme l'empereur romain Marcus Aurelius disait :
