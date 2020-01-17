@@ -2,6 +2,7 @@
 - Thème : Regular Expression (RegEx)
 - Objectif : découvrir et apprendre à utiliser les `Expressions Régulières`
 - Sources : [Sololearn](https://www.sololearn.com/), [Expreg.com](http://www.expreg.com), [Regular-Expressions.info](https://www.regular-expressions.info)
+- Wikipedia :
 
 ## Pourquoi les RegEx ?
 Comme l'empereur romain Marcus Aurelius disait :
@@ -15,6 +16,8 @@ Traduction :
 Ce qui signifie :
 
 > Les expressions régulières sont dures à aborder, mais ce sont des expressions régulières
+
+![mème de Gladiator avec Maximus hurlant à la foule : are you not entertained](https://i.kym-cdn.com/photos/images/original/000/615/056/23c.gif)
 
 Si vous n'avez rien compris à cette signification, c'est normal, c'était le but (de ma blague pourrie)! Par contre, plus sérieusement, vous serez normalement amené à rencontrer et utiliser des RegEx (peu importe le langage de programmation) et il est, selon moi, utile de savoir comment et quand bien les utiliser.
 
