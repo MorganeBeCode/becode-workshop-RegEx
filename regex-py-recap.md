@@ -16,7 +16,7 @@
 #### Quantifieurs
 - \* : correspondre 0 ou plusieurs fois (greedy)
 - *? : comme \* et le moins de fois possible
-- + : correspondre 1 ou plusieurs fois (greedy)
+- \+ : correspondre 1 ou plusieurs fois (greedy)
 - +? : comme + et le moins de fois possible
 - ? : correspondre 0 ou 1 fois (greedy)
 - ?? : comme ? et le moins de fois possible
