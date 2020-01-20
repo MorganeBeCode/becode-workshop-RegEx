@@ -14,8 +14,8 @@
 - \W : caractère non-alphanumérique [^a-zA-Z0-9]
 
 #### Quantifieurs
-- * : correspondre 0 ou plusieurs fois (greedy)
-- *? : comme * et le moins de fois possible
+- \* : correspondre 0 ou plusieurs fois (greedy)
+- *? : comme \* et le moins de fois possible
 - + : correspondre 1 ou plusieurs fois (greedy)
 - +? : comme + et le moins de fois possible
 - ? : correspondre 0 ou 1 fois (greedy)
