@@ -15,14 +15,14 @@
 
 #### Quantifieurs
 - \* : correspondre 0 ou plusieurs fois (greedy)
-- *? : comme \* et le moins de fois possible
+- *? : comme \* mais le moins de fois possible
 - \+ : correspondre 1 ou plusieurs fois (greedy)
-- +? : comme + et le moins de fois possible
+- +? : comme + mais le moins de fois possible
 - ? : correspondre 0 ou 1 fois (greedy)
-- ?? : comme ? et le moins de fois possible
+- ?? : comme ? mais le moins de fois possible
 - {m} : correspondre exactement m fois
 - {m,n} : correspondre minimum m fois et maximum n fois (greedy)
-- {m, n}? : comme {m,n} et le moins de fois possible
+- {m, n}? : comme {m,n} mais le moins de fois possible
 
 #### Classes / Ensembles de caractères
 - [...] : n'importe quel caractère qui se trouve dans l'ensemble
