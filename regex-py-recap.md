@@ -30,8 +30,7 @@
 
 #### Groupes de caractères
 - (...) : correspondre exactement au groupe de caractères
-- (..|.) : comme (...) ou juste à ce qui se trouve avant |
-- \numéro :
+- (..|.) : comme (...) ou correspondre à ce qui se trouve avant |
 
 #### Ancres et espaces-vides
 - ^ (caret) : indique le début d'une chaîne ou ligne (similaire à \A)
