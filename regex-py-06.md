@@ -85,7 +85,7 @@ Le dernier exemple illustre très bien la différence entre **\b** et **\B**.
 
 <br>
 
-**EXEMPLE 3** : *séquence spéciale Space Jam*
+**EXEMPLE 4** : *séquence spéciale Space Jam*
 
 ```python
 import re
