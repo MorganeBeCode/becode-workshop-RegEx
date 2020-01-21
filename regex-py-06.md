@@ -43,11 +43,11 @@ if match:
   print("Match 1")
 
 match = re.match(pattern, "1, 23, 456!")
-  if match:
+if match:
     print("Match 2")
 
 match = re.match(pattern, " ! $?")
-  if match:
+if match:
     print("Match 3")
 ```
 <br>
@@ -70,11 +70,11 @@ if match:
   print("Match 1")
 
 match = re.search(pattern, "We s>cat<tered?")
-  if match:
+if match:
     print("Match 2")
 
 match = re.search(pattern, "We scattered.")
-    if match:
+  if match:
       print("Match 3")
 ```
 <br>
@@ -97,7 +97,7 @@ if match:
   print("Match 1")
 
 match = re.match(pattern, "hauteur - largeur")
-  if match:
+if match:
     print("Match 2")
 
 pattern = r".+\B-\B.+"
@@ -107,7 +107,7 @@ if match:
   print("Match 3")
 
 match = re.match(pattern, "hauteur - largeur")
-  if match:
+if match:
     print("Match 4")
 ```
 <br>
