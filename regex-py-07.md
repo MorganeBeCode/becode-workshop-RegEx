@@ -33,8 +33,8 @@ pattern = r"([\w\.-]+)@([\w\.-]+)(\.[\w]+)"
 
 str = "Please contact info@becode.org for assistance"
 
-match = re.search(pattern, str):
-  if match:
+match = re.search(pattern, str)
+if match:
     print(match.group())
 ```
 
